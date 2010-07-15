@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title><%= @seller.name %></title>
+</head>
+
+<body>
+	<p>
+		<b>Name: </b><%= @seller.name %>
+	</p>
+	<p>
+		<b>Description: </b><%= @ad.description %>
+	</p>
+	<p>
+		<b>Number of Sales: </b><%= @seller.num_sales %>
+	</p>	
+	<p>
+		<b>Total Sales: </b><%= @seller.total_sales %>
+	</p>	
+	<p>
+		<b>Average Sales: </b><%= @seller.total_sales / @seller.num_sales %>
+	</p>	
+	
+</body>
+</html>
