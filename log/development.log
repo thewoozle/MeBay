@@ -3536,3 +3536,44 @@ Processing AdsController#index (for 127.0.0.1 at 2010-07-20 19:31:56) [GET]
 Rendering template within layouts/ads
 Rendering ads/index
 Completed in 17ms (View: 7, DB: 2) | 200 OK [http://localhost/ads/]
+
+
+Processing AdsController#index (for 127.0.0.1 at 2010-07-21 07:36:28) [GET]
+  [4;36;1mAd Load (2.0ms)[0m   [0;1mSELECT * FROM "ads" [0m
+Rendering template within layouts/ads
+Rendering ads/index
+Completed in 56ms (View: 44, DB: 2) | 200 OK [http://localhost/ads]
+
+
+Processing AdsController#index (for 127.0.0.1 at 2010-07-21 07:39:45) [GET]
+  [4;35;1mAd Load (1.0ms)[0m   [0mSELECT * FROM "ads" [0m
+Rendering template within layouts/ads
+Rendering ads/index
+Completed in 19ms (View: 12, DB: 1) | 200 OK [http://localhost/ads]
+
+
+Processing AdsController#index (for 127.0.0.1 at 2010-07-21 07:39:47) [GET]
+  [4;36;1mAd Load (1.0ms)[0m   [0;1mSELECT * FROM "ads" [0m
+Rendering template within layouts/ads
+Rendering ads/index
+Completed in 17ms (View: 7, DB: 1) | 200 OK [http://localhost/ads/]
+
+
+Processing AdsController#index (for 127.0.0.1 at 2010-07-21 07:40:38) [GET]
+  [4;35;1mAd Load (1.0ms)[0m   [0mSELECT * FROM "ads" [0m
+Rendering template within layouts/ads
+Rendering ads/index
+Completed in 19ms (View: 10, DB: 1) | 200 OK [http://localhost/ads/]
+
+
+Processing AdsController#new (for 127.0.0.1 at 2010-07-21 07:40:40) [GET]
+Rendering template within layouts/ads
+Rendering ads/new
+Completed in 6580ms (View: 6573, DB: 0) | 200 OK [http://localhost/ads/new]
+
+
+Processing AdsController#index (for 127.0.0.1 at 2010-07-21 07:40:54) [GET]
+  [4;36;1mAd Load (1.0ms)[0m   [0;1mSELECT * FROM "ads" [0m
+Rendering template within layouts/ads
+Rendering ads/index
+Completed in 16ms (View: 6, DB: 1) | 200 OK [http://localhost/ads/]
